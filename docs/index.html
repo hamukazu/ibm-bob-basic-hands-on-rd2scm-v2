@@ -235,7 +235,7 @@
       <h2>一般</h2>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a1">
+        <button class="faq-question" id="q1" aria-expanded="false" aria-controls="a1">
           <span>Bob とは何ですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -243,13 +243,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a1" role="region">
+        <div class="faq-answer" id="a1" role="region" aria-labelledby="q1">
           <p>Bob は、コードの作成・リファクタリング・各種タスクの実行を支援するAI搭載のコーディングコンパニオンです。カスタムモードやカスタムインストラクションにより、機能を拡張することができます。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a2">
+        <button class="faq-question" id="q2" aria-expanded="false" aria-controls="a2">
           <span>Bob はどのように動作しますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -257,7 +257,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a2" role="region">
+        <div class="faq-answer" id="a2" role="region" aria-labelledby="q2">
           <p>Bob は大規模言語モデル（LLM）を使用してリクエストを理解し、アクションに変換します。主な機能は以下のとおりです。</p>
           <ul>
             <li>プロジェクト内のファイルの読み書き</li>
@@ -270,7 +270,7 @@
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a3">
+        <button class="faq-question" id="q3" aria-expanded="false" aria-controls="a3">
           <span>Bob にできることは何ですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -278,7 +278,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a3" role="region">
+        <div class="faq-answer" id="a3" role="region" aria-labelledby="q3">
           <p>Bob はさまざまなコーディングタスクをサポートします。</p>
           <ul>
             <li>自然言語の説明からコードを生成する</li>
@@ -294,7 +294,7 @@
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a4">
+        <button class="faq-question" id="q4" aria-expanded="false" aria-controls="a4">
           <span>Bob で処理できないデータの種類はありますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -302,7 +302,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a4" role="region">
+        <div class="faq-answer" id="a4" role="region" aria-labelledby="q4">
           <p>以下のデータ種別は Bob で処理しないでください。</p>
           <ul>
             <li>SPI（特定個人情報）</li>
@@ -314,7 +314,7 @@
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a5">
+        <button class="faq-question" id="q5" aria-expanded="false" aria-controls="a5">
           <span>Bob を利用するリスクはありますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -322,7 +322,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a5" role="region">
+        <div class="faq-answer" id="a5" role="region" aria-labelledby="q5">
           <p>Bob は強力なツールです。責任を持って使用してください。</p>
           <ul>
             <li><strong>Bob は間違えることがあります。</strong>承認前に、Bob が提案した変更を必ず丁寧に確認してください。</li>
@@ -337,7 +337,7 @@
       <h2>使い方</h2>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a6">
+        <button class="faq-question" id="q6" aria-expanded="false" aria-controls="a6">
           <span>新しいタスクを始めるにはどうすればよいですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -345,13 +345,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a6" role="region">
+        <div class="faq-answer" id="a6" role="region" aria-labelledby="q6">
           <p>Bob パネルを開き、チャットボックスにタスクを入力してください。Bob に何をしてほしいかを、明確かつ具体的に記述してください。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a7">
+        <button class="faq-question" id="q7" aria-expanded="false" aria-controls="a7">
           <span>モードを切り替えるにはどうすればよいですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -359,13 +359,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a7" role="region">
+        <div class="faq-answer" id="a7" role="region" aria-labelledby="q7">
           <p>チャット入力エリアのドロップダウンメニューから別のモードを選択するか、<code>/</code> コマンドを使用して特定のモードに切り替えてください。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a8">
+        <button class="faq-question" id="q8" aria-expanded="false" aria-controls="a8">
           <span>ツールとは何ですか？どのように使いますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -373,13 +373,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a8" role="region">
+        <div class="faq-answer" id="a8" role="region" aria-labelledby="q8">
           <p>ツールは Bob がシステムと対話するための手段です。Bob はタスクを完了するために適切なツールを自動的に選択して使用します。ツールを直接呼び出す必要はありません。各ツールの使用時には、承認または拒否を求めるプロンプトが表示されます。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a9">
+        <button class="faq-question" id="q9" aria-expanded="false" aria-controls="a9">
           <span>コンテキストメンションとは何ですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,13 +387,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a9" role="region">
+        <div class="faq-answer" id="a9" role="region" aria-labelledby="q9">
           <p>コンテキストメンションは、ファイル・フォルダー・問題点など、プロジェクトに関する特定の情報を Bob に伝える方法です。<code>@</code> 記号の後に対象アイテムを入力して使用します（例: <code>@/src/file.ts</code>、<code>@problems</code>）。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a10">
+        <button class="faq-question" id="q10" aria-expanded="false" aria-controls="a10">
           <span>Bob はターミナルでコマンドを実行できますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -401,13 +401,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a10" role="region">
+        <div class="faq-answer" id="a10" role="region" aria-labelledby="q10">
           <p>はい、Bob はコマンドを実行できます。コマンドの自動承認を有効にしていない限り、各コマンドの実行前に承認を求めるプロンプトが表示されます。コマンドの自動承認を有効にする際は十分にご注意ください。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a11">
+        <button class="faq-question" id="q11" aria-expanded="false" aria-controls="a11">
           <span>Bob にフィードバックを送るにはどうすればよいですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -415,13 +415,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a11" role="region">
+        <div class="faq-answer" id="a11" role="region" aria-labelledby="q11">
           <p>Bob が提案したアクションを承認または拒否することでフィードバックできます。フィードバック欄を使用して追加のコメントを入力することもできます。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a12">
+        <button class="faq-question" id="q12" aria-expanded="false" aria-controls="a12">
           <span>Bob の動作をカスタマイズできますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -429,7 +429,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a12" role="region">
+        <div class="faq-answer" id="a12" role="region" aria-labelledby="q12">
           <p>はい、いくつかの方法でカスタマイズできます。</p>
           <ul>
             <li><strong>カスタムインストラクション:</strong> 全モード共通の指示、またはモード別の指示を設定できます。</li>
@@ -441,7 +441,7 @@
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a13">
+        <button class="faq-question" id="q13" aria-expanded="false" aria-controls="a13">
           <span>Bob に自動承認の設定はありますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -449,7 +449,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a13" role="region">
+        <div class="faq-answer" id="a13" role="region" aria-labelledby="q13">
           <p>はい、有効にするとアクションを自動的に承認するいくつかの設定があります。</p>
         </div>
       </div>
@@ -460,7 +460,7 @@
       <h2>高度な機能</h2>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a14">
+        <button class="faq-question" id="q14" aria-expanded="false" aria-controls="a14">
           <span>MCP（Model Context Protocol）とは何ですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -468,13 +468,13 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a14" role="region">
+        <div class="faq-answer" id="a14" role="region" aria-labelledby="q14">
           <p>MCP は Bob が外部サーバーと通信するためのプロトコルで、カスタムツールやリソースを追加することで Bob の機能を拡張できます。</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a15">
+        <button class="faq-question" id="q15" aria-expanded="false" aria-controls="a15">
           <span>独自のMCPサーバーを作成できますか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -482,7 +482,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a15" role="region">
+        <div class="faq-answer" id="a15" role="region" aria-labelledby="q15">
           <p>はい、独自のMCPサーバーを作成して Bob にカスタム機能を追加することができます。</p>
         </div>
       </div>
@@ -493,7 +493,7 @@
       <h2>トラブルシューティング</h2>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a16">
+        <button class="faq-question" id="q16" aria-expanded="false" aria-controls="a16">
           <span>Bob が応答しません。どうすればよいですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -501,7 +501,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a16" role="region">
+        <div class="faq-answer" id="a16" role="region" aria-labelledby="q16">
           <ul>
             <li>APIキーが正しいこと、有効期限が切れていないことを確認してください。</li>
             <li>インターネット接続を確認してください。</li>
@@ -511,7 +511,7 @@
       </div>
 
       <div class="faq-item">
-        <button class="faq-question" aria-expanded="false" aria-controls="a17">
+        <button class="faq-question" id="q17" aria-expanded="false" aria-controls="a17">
           <span>意図しない変更が加えられました。元に戻すにはどうすればよいですか？</span>
           <span class="icon" aria-hidden="true">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -519,7 +519,7 @@
             </svg>
           </span>
         </button>
-        <div class="faq-answer" id="a17" role="region">
+        <div class="faq-answer" id="a17" role="region" aria-labelledby="q17">
           <p>Bob は VS Code の標準的なファイル編集機能を使用しています。標準の「元に戻す」コマンド（Ctrl / Cmd + Z）で変更を取り消すことができます。また、チェックポイントを使用してファイルへの変更を特定時点まで戻すこともできます。</p>
         </div>
       </div>
@@ -558,7 +558,8 @@
 
     // 保存済みの設定を復元
     var saved = localStorage.getItem('theme');
-    applyTheme(saved === 'dark');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(saved === 'dark' || (saved === null && prefersDark));
 
     toggleBtn.addEventListener('click', function() {
       var isDark = document.body.classList.contains('dark');
