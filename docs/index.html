@@ -557,14 +557,15 @@
     }
 
     // 保存済みの設定を復元
-    var saved = localStorage.getItem('theme');
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
     var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     applyTheme(saved === 'dark' || (saved === null && prefersDark));
 
     toggleBtn.addEventListener('click', function() {
       var isDark = document.body.classList.contains('dark');
       applyTheme(!isDark);
-      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+      try { localStorage.setItem('theme', isDark ? 'light' : 'dark'); } catch (e) {}
     });
   </script>
 </body>
